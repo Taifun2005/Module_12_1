@@ -1,4 +1,5 @@
 import unittest
+
 import runner
 
 
@@ -23,8 +24,6 @@ class RunnerTest(unittest.TestCase):
             runner2.walk()
         self.assertEqual(runner1.distance, runner2.distance)
 
+
 if __name__ == '__main__':
     unittest.main
-
-
-
